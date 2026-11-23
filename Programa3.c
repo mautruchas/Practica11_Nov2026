@@ -1,0 +1,16 @@
+/*
+López Coria Mauricio
+Ejercicio 3 Funciones*/
+#include <stdio.h>
+int resultado; //variable global
+void multiplicar(); // prototipo de la función
+int main()
+{
+ multiplicar(); //llamado de la función multiplicar
+ printf("%i",resultado);
+ return 0;
+}
+void multiplicar() //función multiplicar
+{
+ resultado = 5 * 4;
+}
